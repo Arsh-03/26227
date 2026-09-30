@@ -97,23 +97,23 @@ This repository's architecture and product requirements are partitioned into 4 d
 
 | Section | Document Path | Title & Scope | Status & Ownership |
 | :--- | :--- | :--- | :--- |
-| **Architecture** | [`docs/architecture/01-system-overview.md`](file:///c:/Users/AITNS/Documents/26227/docs/architecture/01-system-overview.md) | End-to-End System Architecture, Macro Topologies, Service Boundaries & SLA Budgets | **Authored (Sprint 1)** |
-| **Architecture** | [`docs/architecture/02-geospatial-lakehouse.md`](file:///c:/Users/AITNS/Documents/26227/docs/architecture/02-geospatial-lakehouse.md) | Object Storage, COG Structure, STAC Catalogs, PostGIS, pgvector, H3 Hexagonal DGGS | **Authored (Sprint 1)** |
-| **Architecture** | `docs/architecture/03-offline-inference-mesh.md` | Model Deployment, Triton Inference Server, GPU Batching, Edge Mesh Deployment | *Partner Assigned* |
-| **Architecture** | `docs/architecture/04-security-and-audit.md` | Zero-Trust RBAC, ABAC, Cryptographic Ledger, Data Air-Gapping & Security | *Partner Assigned* |
-| **Features** | [`docs/features/FEAT-01-cog-ingestion.md`](file:///c:/Users/AITNS/Documents/26227/docs/features/FEAT-01-cog-ingestion.md) | PRD: Asynchronous Ingestion, COG Pyramid Generation, Radiometric Indexing | **Authored (Sprint 1)** |
-| **Features** | [`docs/features/FEAT-02-semantic-retrieval.md`](file:///c:/Users/AITNS/Documents/26227/docs/features/FEAT-02-semantic-retrieval.md) | PRD: RemoteCLIP/Clay Embedding, H3 Chipping, Hybrid SQL+HNSW Vector Search | **Authored (Sprint 1)** |
-| **Features** | [`docs/features/FEAT-03-change-detection.md`](file:///c:/Users/AITNS/Documents/26227/docs/features/FEAT-03-change-detection.md) | PRD: Bi-Temporal Transformers, Sub-Pixel Coregistration, Polygonization | **Authored (Sprint 1)** |
-| **Features** | `docs/features/FEAT-04-false-alarm-filter.md` | PRD: SAR Backscatter Verification, s2cloudless Cloud/Shadow Masking | *Partner Assigned* |
-| **Features** | `docs/features/FEAT-05-similar-site.md` | PRD: Reverse Visual Geo-Intelligence, Target Coordinate Extrapolation | *Partner Assigned* |
-| **Features** | `docs/features/FEAT-06-human-in-the-loop.md` | PRD: Analyst Verification, Active Learning Retraining Pipeline | *Partner Assigned* |
-| **Dashboards** | [`docs/dashboards/01-analyst-workbench.md`](file:///c:/Users/AITNS/Documents/26227/docs/dashboards/01-analyst-workbench.md) | Spec: Dual-Viewport WebGL Split-Swipe, Vector Overlays, Hotkey Triage UX | **Authored (Sprint 1)** |
-| **Dashboards** | [`docs/dashboards/02-intelligence-search.md`](file:///c:/Users/AITNS/Documents/26227/docs/dashboards/02-intelligence-search.md) | Spec: Natural Language Search Console, Bounding Box Tool, Deck.gl Heatmap | **Authored (Sprint 1)** |
-| **Dashboards** | `docs/dashboards/03-ingestion-telemetry.md` | Spec: Real-time Ingestion Queue Visualizer, GPU/VRAM Telemetry, Storage Gauges | *Partner Assigned* |
-| **Dashboards** | `docs/dashboards/04-audit-and-export.md` | Spec: Verification Ledger, PDF Dossier Export, Multi-Format GeoJSON/KML Exporter | *Partner Assigned* |
-| **Frontend** | [`docs/frontend/01-design-system.md`](file:///c:/Users/AITNS/Documents/26227/docs/frontend/01-design-system.md) | Tactical High-Contrast Dark Theme, Map Theming, UI Component Tokens | **Authored (Sprint 1)** |
-| **Frontend** | [`docs/frontend/02-state-management.md`](file:///c:/Users/AITNS/Documents/26227/docs/frontend/02-state-management.md) | Zustand State Stores, WebWorker Vector Offloading, Viewport Synchronization | **Authored (Sprint 1)** |
-| **Frontend** | `docs/frontend/03-webgl-rendering.md` | MapLibre GL + Deck.gl Integration, Custom Shaders, GPU Memory Management | *Partner Assigned* |
+| **Architecture** | [`docs/architecture/01-system-overview.md`](architecture/01-system-overview.md) | End-to-End System Architecture, Macro Topologies, Service Boundaries & SLA Budgets | **Authored (Sprint 1)** |
+| **Architecture** | [`docs/architecture/02-geospatial-lakehouse.md`](architecture/02-geospatial-lakehouse.md) | Object Storage, COG Structure, STAC Catalogs, PostGIS, pgvector, H3 Hexagonal DGGS | **Authored (Sprint 1)** |
+| **Architecture** | [`docs/architecture/03-offline-inference-mesh.md`](architecture/03-offline-inference-mesh.md) | Distributed GPU Mesh, Triton Server, FlashAttention-3, Ray Serve, Edge Deployment | **Completed (Partner)** |
+| **Architecture** | [`docs/architecture/04-security-and-audit.md`](architecture/04-security-and-audit.md) | Zero-Trust RBAC, ABAC Geofencing, SHA-256 Ledger Chaining, Data Air-Gapping | **Completed (Partner)** |
+| **Features** | [`docs/features/FEAT-01-cog-ingestion.md`](features/FEAT-01-cog-ingestion.md) | PRD: Asynchronous Ingestion, COG Pyramid Generation, Radiometric Indexing | **Authored (Sprint 1)** |
+| **Features** | [`docs/features/FEAT-02-semantic-retrieval.md`](features/FEAT-02-semantic-retrieval.md) | PRD: RemoteCLIP/Clay Embedding, H3 Chipping, Hybrid SQL+HNSW Vector Search | **Authored (Sprint 1)** |
+| **Features** | [`docs/features/FEAT-03-change-detection.md`](features/FEAT-03-change-detection.md) | PRD: Bi-Temporal Transformers, Sub-Pixel Coregistration, Polygonization | **Authored (Sprint 1)** |
+| **Features** | [`docs/features/FEAT-04-false-alarm-filter.md`](features/FEAT-04-false-alarm-filter.md) | PRD: SAR Backscatter Verification, s2cloudless Masking, Multi-Temporal Persistence | **Completed (Partner)** |
+| **Features** | [`docs/features/FEAT-05-similar-site.md`](features/FEAT-05-similar-site.md) | PRD: Reverse Visual Geo-Intelligence, pgvector Halfvec k-NN, Deck.gl Heatmap | **Completed (Partner)** |
+| **Features** | [`docs/features/FEAT-06-human-in-the-loop.md`](features/FEAT-06-human-in-the-loop.md) | PRD: Analyst Verification, Active Learning Retraining Pipeline, 1-Click Dossiers | **Completed (Partner)** |
+| **Dashboards** | [`docs/dashboards/01-analyst-workbench.md`](dashboards/01-analyst-workbench.md) | Spec: Dual-Viewport WebGL Split-Swipe, Vector Overlays, Hotkey Triage UX | **Authored (Sprint 1)** |
+| **Dashboards** | [`docs/dashboards/02-intelligence-search.md`](dashboards/02-intelligence-search.md) | Spec: Natural Language Search Console, Bounding Box Tool, Deck.gl Heatmap | **Authored (Sprint 1)** |
+| **Dashboards** | [`docs/dashboards/03-ingestion-telemetry.md`](dashboards/03-ingestion-telemetry.md) | Spec: Real-time Ingestion Queue Visualizer, GPU/VRAM Telemetry, Storage Gauges | **Completed (Partner)** |
+| **Dashboards** | [`docs/dashboards/04-audit-and-export.md`](dashboards/04-audit-and-export.md) | Spec: Verification Ledger, PDF Dossier Export, Multi-Format GeoJSON/KML Exporter | **Completed (Partner)** |
+| **Frontend** | [`docs/frontend/01-design-system.md`](frontend/01-design-system.md) | Tactical High-Contrast Dark Theme, Map Theming, UI Component Tokens | **Authored (Sprint 1)** |
+| **Frontend** | [`docs/frontend/02-state-management.md`](frontend/02-state-management.md) | Zustand State Stores, WebWorker Vector Offloading, Viewport Synchronization | **Authored (Sprint 1)** |
+| **Frontend** | [`docs/frontend/03-webgl-rendering.md`](frontend/03-webgl-rendering.md) | MapLibre GL + Deck.gl Integration, Custom Shaders, GPU Memory Management | **Completed (Partner)** |
 
 ---
 
