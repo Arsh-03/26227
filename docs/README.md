@@ -114,6 +114,7 @@ This repository's architecture and product requirements are partitioned into 4 d
 | **Frontend** | [`docs/frontend/01-design-system.md`](frontend/01-design-system.md) | Tactical High-Contrast Dark Theme, Map Theming, UI Component Tokens | **Authored (Sprint 1)** |
 | **Frontend** | [`docs/frontend/02-state-management.md`](frontend/02-state-management.md) | Zustand State Stores, WebWorker Vector Offloading, Viewport Synchronization | **Authored (Sprint 1)** |
 | **Frontend** | [`docs/frontend/03-webgl-rendering.md`](frontend/03-webgl-rendering.md) | MapLibre GL + Deck.gl Integration, Custom Shaders, GPU Memory Management | **Completed (Partner)** |
+| **Presentation** | [`docs/PPT.md`](PPT.md) | Smart India Hackathon 2026 6-Slide Presentation Deck Blueprint & Prompts | **Authored (Master Deck)** |
 
 ---
 

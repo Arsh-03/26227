@@ -22,3 +22,6 @@ The full architectural blueprints, technical product requirements documents (PRD
 - 🎨 **Frontend Engineering:**
   - [`docs/frontend/01-design-system.md`](file:///c:/Users/AITNS/Documents/26227/docs/frontend/01-design-system.md) — Tactical High-Contrast Dark Theme & Symbology
   - [`docs/frontend/02-state-management.md`](file:///c:/Users/AITNS/Documents/26227/docs/frontend/02-state-management.md) — Zustand Store Mesh & Viewport Synchronization
+- 🎯 **Presentation & Pitch:**
+  - [`docs/PPT.md`](file:///c:/Users/AITNS/Documents/26227/docs/PPT.md) — Smart India Hackathon 2026 Master 6-Slide Presentation Deck Specification & Prompts
+
